@@ -1,0 +1,57 @@
+# House Price Prediction Using Machine Learning
+
+## Project Overview
+This project uses Python and Linear Regression to predict house prices based on property features such as size, number of bedrooms, and number of bathrooms.
+
+It demonstrates a basic machine learning workflow, including data loading, model training, prediction, and performance evaluation.
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Joblib
+
+## Dataset
+The dataset contains the following features:
+- **Size:** Size of the house
+- **Bedrooms:** Number of bedrooms
+- **Bathrooms:** Number of bathrooms
+- **Price:** House price (target variable)
+
+## Machine Learning Model
+A Linear Regression model is trained to estimate house prices from the available property features.
+
+## Model Evaluation
+The model was evaluated using Root Mean Squared Error (RMSE) and the coefficient of determination (R²).
+
+- **RMSE:** 5,784.63
+- **R² Score:** 0.9914
+
+The R² score indicates a strong fit on the evaluation data. However, performance on new properties may differ, especially with a small dataset.
+
+## How to Run
+1. Install Python.
+2. Install the required libraries:
+
+   ```bash
+   pip install pandas scikit-learn matplotlib joblib
+   ```
+
+3. Ensure the dataset file is in the project directory.
+4. Run the script:
+
+   ```bash
+   python house_price_prediction.py
+   ```
+
+## Future Improvements
+- Use a larger and more diverse dataset.
+- Compare Linear Regression with other machine learning algorithms.
+- Add visualisations of actual versus predicted prices.
+- Build a simple web interface for predictions.
+
+## Author
+**Oratile Thuto Mabe**
+
+GitHub: [Thuto16](https://github.com/Thuto16)
